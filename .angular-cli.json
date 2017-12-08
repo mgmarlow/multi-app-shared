@@ -27,6 +27,24 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
+    },
+    {
+      "root": "src2",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "../src/index.html",
+      "main": "main2.ts",
+      "polyfills": "../src/polyfills.ts",
+      "tsconfig": "../src/tsconfig.app.json",
+      "prefix": "app",
+      "environmentSource": "../src/environments/environment.ts",
+      "environments": {
+        "dev": "../src/environments/environment.ts",
+        "prod": "../src/environments/environment.prod.ts"
+      }
     }
   ],
   "e2e": {
